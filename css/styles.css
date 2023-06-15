@@ -92,3 +92,13 @@ color: #a6a6a6;
     color: #ffffff;
     text-transform: uppercase;
   }
+.col-2 {
+  float:left;
+  width:50%;
+  list-style-position: outside;
+}
+.row: after{
+  content:"";
+  display:table;
+  clear: both;
+}
