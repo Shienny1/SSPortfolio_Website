@@ -8,12 +8,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Case Study 1: Healing Hands</title>
     <link rel="shortcut icon" href="img/favicomatic/favicon-32x32.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&family" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <div>
-            <a href="index.html"><img src="img/logo.svg" alt="Shienny Sutanto"></a>
+            <a href="index.html"><img src="img/shiennylogo_wht.svg" alt="Shienny Sutanto"></a>
             <nav>
                 <ul>
                     <li><a href="work.html">Work</a></li>
@@ -24,16 +27,15 @@
         </div>
     </header>
 
-
     <main>
-        <div id="top"> <!--Start of whole section block-->
+        <div id="top"> <!--Start Section 1 block-->
             <div><!--Container/wrapper-->
-                <h3>Case Study 1: The Healing Hands App.</h3>
-                <span><h1>Watch Where You Put Your Hands!</h1></span>
+                <h1>Case Study 1: The Healing Hands App</h1>
+                <span><h2>Watch Where You Put Your Hands!</h2></span>
 
-                    <div><!--Beginning of Greybox-->
-                        <img src="img/UX-healinghands/Components_hhcompletelogo_blk.svg" alt="Healing Hands Full Logo">
-                        <a href="#"><img src="img/UX-healinghands/Components_playdemo_blk.svg" height="80em" viewBox="0 0 448 512" alt="Play Demo"></a><br>
+                    <div class="container"><!--Beginning of Greybox-->
+                        <img src="img/UX-healinghands/hhcompletelogo_wht.svg" alt="Healing Hands Full Logo">
+                        <a href="https://youtu.be/ylsDZRySxx8"><img src="img/UX-healinghands/playdemo_wht.svg" height="80em" viewBox="0 0 448 512" alt="Play Demo"></a><br>
                         <div>
                             <picture>
                                 <source srcset="img/UX-healinghands/mockup_onboarding600.png" media="(max-width:767px)">
@@ -95,6 +97,8 @@
                     </div><!--end of Greybox-->
             </div>
             <button onclick="window.location.href='https://xd.adobe.com/view/9023e924-635b-4d67-b3c3-8b6757ad5dba-c570/?fullscreen';" target="_blank">Try prototype</button>
+        </div><!--End of Section 1 block-->
+        <div class="aside">
             <div>
                 <h3>DESIGN PROCESS</h3>
                 <nav>
@@ -108,12 +112,12 @@
                     </ul> 
                 </nav>
             </div>
-        </div><!--End of First section-->
+        </div>
 
         <div  id="challenge"><!--Start of Section 2 block-->
             <div>
-                <h1>WHAT'S THE CHALLENGE</h1>
-                <span><h4>EMPATHIZE AND DEFINE THE PROBLEM</h4></span>
+                <h2>WHAT'S THE CHALLENGE</h2>
+                <span><h5>EMPATHIZE AND DEFINE THE PROBLEM</h5></span>
                 <p>The Healing Hands app is a “Destination” app. Only people in-the-know would search for it. So the assumption is that they know of Jin Shin Jyutsu (JSJ) benefits for their health</p>
                 <div>
                     <picture>
@@ -131,7 +135,7 @@
 
         <div  id="available"><!--Start of Section 3 block-->
             <div>
-                <h1>WHAT'S AVAILABLE</h1>
+                <h2>WHAT'S AVAILABLE</h2>
                 <span><h4>UNDERSTAND AND OBSERVE</h4></span>
                 <p>Currently there is no direct competitors in Jin Shin Jyutsu so I conducted my competitive research on similar healthcare platforms like LUNA and OneStep.</p>
                 <div><a href ="#" download> <h3>COMPETITIVE ANALYSIS</h3></a>
@@ -237,7 +241,7 @@
 
         <div  id="who"><!--Start of Section 4 block-->
             <div>
-                <h1>WHO IS IT FOR?</h1>
+                <h2>WHO IS IT FOR?</h2>
                 <span><h4>POV and IDEATE</h4></span>
                 <h3>Let's Meet Grace, Bill, and Grandma Maddie</h3>
                 <p>These three personas have different health goals and challenges but have similar motivations:
@@ -265,7 +269,7 @@
         <div  id="bml"><!--Start of Section 5 block-->
             <div>
                 <div>
-                    <h1>BUILD-MEASURE-LEARN FEEDBACK LOOP</h1>
+                    <h2>BUILD-MEASURE-LEARN FEEDBACK LOOP</h2>
                     <span><h4>ITERATE and TEST</h4></span>
                     <p>This is my favorite phase of the design process because  I was able to use the information I have gathered through research and surveys to create a prototype that users can test directly.</p> 
                     <h4>Designing and testing if your ideas and assumptions are correct is part of the fun.</h4>
@@ -295,7 +299,7 @@
 
         <div  id="communicate"><!--Start of Section 6 block-->
             <div>
-                <h1>COMMUNICATE MY DESIGN</h1>
+                <h2>COMMUNICATE MY DESIGN</h2>
                 <span><h4>TELL A STORY</h4></span>
                <div>
                 <picture>
@@ -308,7 +312,7 @@
 
         <div  id="learned"><!--Start of Section 7 block-->
             <div>
-                <h1>TAKE AWAYS</h1>
+                <h2>TAKE AWAYS</h2>
                 <div>
                     <a href="https://xd.adobe.com/view/9023e924-635b-4d67-b3c3-8b6757ad5dba-c570/?fullscreen" target="_blank">
                     <picture>
@@ -326,7 +330,6 @@
         <div>
             <a href="#"> GO TO NEXT CASE STUDY</a>
         </div>
-
     </main>
 
     <footer id="contact">
@@ -339,7 +342,7 @@
                     +1 (123)456-7890</a> or Skype me at <a href="skype:hello.careerfoundry">hello.careerfoundry</a>.
                 Prefer sending an email?
             </p>
-            <div><a href="#">Email me</a></div>
+            <div><a href="mailto:office@careerfoundry.com" class="button contact">Email me</a></div>
             <div>
                 <p>Copyright Shienny Sutanto 2023</p>
             </div>
