@@ -5,23 +5,33 @@ Primary Text Color (white):#FFFFFF
 Secondary Text Color (grey): #969696
 Accent Color: #FF8900
 */
-
+html {
+  background-color:black;
+}
+*{
+  box-sizing: border-box;
+}
+header{
+  background-color:black; 
+  padding: 10px;
+  margin: 10px;
+  border-bottom: 3px solid #ffffff;
+}
 body {
-  background-color: #000000;
   font-family: 'montserrat', sans-serif;
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 300; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-  color: #a6a6a6;
+  color: grey;
 }
-.container1 {
-  width: 1200px;
+.container {
+  max-width: 1200px;
   min-height: 300px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 25px;
 }
-.container {
+.herobox1{
   width: 1024px;
   min-height: 300px;
   margin-left: auto;
@@ -30,9 +40,11 @@ body {
   background-color: #414242;
   color:#ffffff
 }
-.navbutton{
+.navigation{
 display: inline-block;
-position:relative
+position:relative;
+list-style-type: none;
+padding: 0;
 }
 
 h1, h2, h3, h4 {
@@ -88,17 +100,22 @@ color: #a6a6a6;
     text-decoration: none;
   }
 .button.contact{
+    box-sizing: border-box;
     background-color:#ff7f50;
     color: #ffffff;
     text-transform: uppercase;
   }
-.col-2 {
-  float:left;
-  width:50%;
-  list-style-position: outside;
-}
-.row: after{
+.row::after{
   content:"";
   display:table;
   clear: both;
 }
+.col-2 {
+  float:left;
+  width:50%;
+  padding:10 px;
+}
+@media screen and (max-width:600px){
+  .col-2{width:100%}  
+}
+
