@@ -114,6 +114,8 @@ color: #a6a6a6;
   float:left;
   width:50%;
   padding:10px;
+  margin:0 auto;
+  border: 1em;
 }
 @media screen and (max-width:600px){
   .col-2{width:100%}  
