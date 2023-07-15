@@ -44,9 +44,9 @@ nav>ul{
   list-style-type: none;
   padding: 0;
 }
-/* nav>ul>li{ */
-  /* display:inline-block; */
-/* } */
+nav>ul>li{ */
+  display:inline-block;
+ } 
 
 nav>ul>li>a{
   padding:0 5px;
@@ -63,9 +63,9 @@ nav>ul>li>a:hover{
 nav>ul>li>a:active{
 color:#001aff  
 }
-/* .navtoggle li:not(:last-child) {
+.navtoggle li:not(:last-child) {
   display: none;
-} */
+}
 .navtoggle li .icon {
   position: absolute;
   right: 0;
