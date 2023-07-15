@@ -16,14 +16,17 @@
 <body id="about">
     <header>
         <div class="container">
-            <a class="logo" href="index.html"><img src="img/shiennylogo_wht.svg" alt="Shienny Sutanto"></a>
-            <nav>
-                <ul class="navigation">
-                    <li><a href="index.html">Work</a></li>
-                     <li><a href="about.html">About</a></li>
-                     <li><a href="about.html#contact">Contact</a></li>
-                </ul> 
-            </nav>
+            <div class="navtoggle" id="myNavtoggle">
+                <img class="logo" src="img/shiennylogo_wht.svg" alt="Shienny Sutanto">
+                <nav>
+                    <ul class="navigation">
+                        <li><a href="index.html">Work</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="about.html#contact" onclick="menuToggle()">Contact</a></li>
+                        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars fa-xl" style="color: #ff9300;"></i></a></li>
+                    </ul> 
+                </nav>
+            </div>
         </div>
     </header>
 
@@ -126,12 +129,15 @@
                 </a>
             </div>
             <div>
-                <p><small>Copyright Shienny Sutanto 2023</small></p>
+                <p class="small">Copyright Shienny Sutanto 2023</p>
             </div>
 
         </div>
         
     </footer>
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
     <script src="js/scripts.js"></script>
 </body>
