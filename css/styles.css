@@ -68,8 +68,8 @@ color:#001aff
 }
 .navtoggle li .icon {
   position: absolute;
-  right: 0;
-  top: 2px;
+  right: 5px;
+  top: 5px;
   font-size: 20px;
   padding-right:0;
 }
